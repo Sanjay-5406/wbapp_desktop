@@ -1,0 +1,53 @@
+{
+  "name": "wbapp",
+  "version": "0.1.0",
+  "main": "main.js",
+  "private": true,
+  "scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "lint": "eslint",
+  "electron:dev": "concurrently \"next dev --webpack\" \"wait-on http://localhost:3000 && cross-env ELECTRON_START_URL=http://localhost:3000 electron .\"",
+  "electron:build": "next build && electron-builder"
+},
+  "dependencies": {
+    "@supabase/ssr": "^0.12.3",
+    "@supabase/supabase-js": "^2.110.2",
+    "embla-carousel-react": "^8.6.0",
+    "framer-motion": "^12.42.2",
+    "lucide-react": "^1.26.0",
+    "next": "16.2.10",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "react-icons": "^5.7.0",
+    "swiper": "^14.0.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "concurrently": "^9.1.2",
+    "cross-env": "^7.0.3",
+    "electron": "^34.0.0",
+    "electron-builder": "^25.1.8",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.10",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "wait-on": "^8.0.2"
+  },
+  "build": {
+    "appId": "com.myapp.desktop",
+    "productName": "My NextJS Desktop App",
+    "files": [
+      "main.js",
+      "preload.js",
+      "out/**/*"
+    ],
+    "directories": {
+      "output": "dist"
+    }
+  }
+}

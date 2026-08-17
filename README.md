@@ -36,3 +36,18 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 "# wbapp" 
 "# wbapp_desktop" 
+
+
+<img width="1366" height="725" alt="image" src="https://github.com/user-attachments/assets/fd0f3f66-52e5-4d2c-a59b-7f85072ac967" />
+
+## Global / Private Network Chat
+<img width="1366" height="575" alt="image" src="https://github.com/user-attachments/assets/3c18afd7-eca1-4e0f-8fd5-3868dc4d3736" />
+
+## Executing workloads
+<img width="709" height="243" alt="image" src="https://github.com/user-attachments/assets/3e1f48fe-2d92-4634-b124-a867d7e09231" />
+<img width="673" height="656" alt="image" src="https://github.com/user-attachments/assets/3ddd4b1b-0055-48fe-a2bc-2e6104ba6618" />
+results stored as a organized folder before transmission,
+<img width="1051" height="131" alt="image" src="https://github.com/user-attachments/assets/d84f8be0-d357-4b5c-8860-d62410abd35d" />
+
+## Customizable and convenient RDBMS model,
+<img width="948" height="529" alt="image" src="https://github.com/user-attachments/assets/c6bdbde2-13ee-4631-8cf9-d14c43c7c9ec" />
